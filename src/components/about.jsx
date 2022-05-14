@@ -6,55 +6,85 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
+        { id: "HTML5_skill", content: "HTML5", porcentage: "100%", value: "100" },
+        { id: "CSS3_skill", content: "CSS3", porcentage: "95%", value: "95" },
         {
           id: "JavaScript_skill",
           content: "JavaScript",
           porcentage: "90%",
           value: "90"
         },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
+        { id: "PHP_skill", content: "PHP", porcentage: "65%", value: "65" },
         {
           id: "ReactJS_skill",
           content: "ReactJS",
-          porcentage: "80%",
-          value: "80"
-        },
-        {
-          id: "Python_skill",
-          content: "Python",
           porcentage: "75%",
           value: "75"
         },
         {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85"
+          id: "Python_skill",
+          content: "Python",
+          porcentage: "90%",
+          value: "90"
         },
         {
-          id: "Wordpress_skill",
-          content: "Wordpress",
-          porcentage: "80%",
-          value: "80"
+          id: "SQL",
+          content: "SQL",
+          porcentage: "55%",
+          value: "55"
+        },
+        {
+          id: "Joomla",
+          content: "Joomla",
+          porcentage: "65%",
+          value: "65"
+        },
+        {
+            id: "MongoDB",
+            content: "MongoDB",
+            porcentage: "30%",
+            value: "30"
+        },
+        {
+            id: "Kotlin",
+            content: "Kotlin",
+            porcentage: "55%",
+            value: "55"
+        },
+        {
+            id: "Machine Learning",
+            content: "Machine Learning",
+            porcentage: "15%",
+            value: "15"
+        },
+        {
+            id: "C",
+            content: "C",
+            porcentage: "50%",
+            value: "50"
+        },
+        {
+            id: "linux",
+            content: "Linux",
+            porcentage: "75%",
+            value: "75"
         }
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "My name is Miguel Antoons, born the 28th of January 2001 and I am finishing my bachelor in information Technology at Ephec. Information technology has always been interesting to me since it is a often changing and very broad sector. This has the benefit that there are always new things to learn."
         },
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "More precisely, the sectors I'd like to work in are the data science and the cybersecurity sectors. They are sectors that are quietly new and that are growing very fast with a lot of opportunities on the table. Furthermore, both of those sectors offer complicated challenges with, on the data-science side, a lot of math implicated, and on the cybersecurity side, software to protect from constantly evaluating hackers."
         },
         {
           id: "third-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            <>Below, you can check-out some non-school activities and projects of mine. Don't hesitate to contact me for further question, or download my resume <a href='../files/miguel_antoons_cv.pdf' download>here</a>.</>
         }
       ]
     };

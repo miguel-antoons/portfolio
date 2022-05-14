@@ -3,12 +3,14 @@ import $ from "jquery";
 
 import logo1 from "../img/male1.png";
 import logo2 from "../img/male.png";
+import pdf from "../files/miguel_antoons_cv.pdf";
 
 class Navbar extends React.Component {
   constructor() {
     super();
     this.state = {
-      logo: logo1
+      logo: logo1,
+      pdf: pdf
     };
   }
 
@@ -123,12 +125,22 @@ class Navbar extends React.Component {
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#work">
-                  Work
+                  Portfolio
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll" href="#summary">
+                  Summary
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#contact">
                   Contact
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll" href={this.state.pdf} download>
+                  Resume
                 </a>
               </li>
             </ul>

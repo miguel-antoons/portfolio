@@ -26,6 +26,30 @@ a:hover {
   transition: all 0.5s ease-in-out;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.imageCon {
+    height: 350px;
+}
+
+.widthLim {
+    width: 100%;
+    object-fit:contain;
+    margin: 1%;
+}
+
+.heightLim {
+    padding: 4px !important;
+}
+
+.imageCon img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 .p-r {
   position: relative;
 }
@@ -160,6 +184,15 @@ a:hover {
 
 .title-box-2 {
   margin-bottom: 3rem;
+}
+
+.center {
+    text-align: center !important;
+}
+
+.center:before {
+    left: calc(50% - 50px);
+    right: calc(50% - 50px);
 }
 
 .title-left {
@@ -701,6 +734,8 @@ PORTFOLIO
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  height: 560px;
+  cursor: pointer;
 }
 
 .work-box:hover img {
@@ -711,10 +746,14 @@ PORTFOLIO
 .work-img {
   display: block;
   overflow: hidden;
+  height: 410px;
 }
 
 .work-img img {
   transition: all 1s;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .work-content {
