@@ -1,5 +1,4 @@
 import React from "react";
-import myImage from "../img/myImage.png";
 
 class About extends React.Component {
   constructor() {
@@ -84,7 +83,7 @@ class About extends React.Component {
         {
           id: "third-p-about",
           content:
-            <>Below, you can check-out some non-school activities and projects of mine. Don't hesitate to contact me for further question, or download my resume <a href='../files/miguel_antoons_cv.pdf' download>here</a>.</>
+            <>Below, you can check-out some non-school activities and projects of mine. Don't hesitate to <a href="#contact">contact</a> me for further question, or download my resume <a href='../files/miguel_antoons_cv.pdf' download>here</a>.</>
         }
       ]
     };

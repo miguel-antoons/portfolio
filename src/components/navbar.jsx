@@ -1,8 +1,7 @@
 import React from "react";
 import $ from "jquery";
 
-import logo1 from "../img/male1.png";
-import logo2 from "../img/male.png";
+import logo1 from "../img/myself.jpg";
 import pdf from "../files/miguel_antoons_cv.pdf";
 
 class Navbar extends React.Component {
@@ -41,7 +40,7 @@ class Navbar extends React.Component {
         document
           .querySelector(".navbar-expand-md")
           .classList.remove("navbar-trans");
-        this.setState({ logo: logo2 });
+        this.setState({ logo: logo1 });
       } else {
         document
           .querySelector(".navbar-expand-md")
@@ -92,7 +91,7 @@ class Navbar extends React.Component {
             <img
               src={this.state.logo}
               alt="logo"
-              style={{ maxWidth: "100px" }}
+              style={{ maxWidth: "100px", borderRadius: "50%"}}
             />
           </a>
           <button

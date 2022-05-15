@@ -33,10 +33,15 @@ import festival3 from '../img/proof/festival3.jpeg';
 import festival4 from '../img/proof/festival4.jpeg';
 
 import ticket from '../img/fuselabel.png';
+import ticket1 from '../img/proof/fuselabel2.jpg';
 
 import electrician from '../img/Instalatii_electrice_rezidentiale_900x550.jpg';
+import electrician1 from '../img/proof/elec1.jpg';
+import electrician2 from '../img/proof/elec2.jpg';
 
 import kitchen from '../img/Kitchen-Helper.jpg';
+import kitchen1 from '../img/proof/Screenshot from 2022-05-15 11-26-20.png';
+import kitchen2 from '../img/proof/Screenshot from 2022-05-15 11-27-02.png';
 
 const Summary = () => {
     const [modalShow, setModalShow] = React.useState(false);
@@ -164,7 +169,7 @@ const Summary = () => {
                 <br/>
                 For more information, click <a href='https://github.com/miguel-antoons/fuse-label'>here</a></>),
             'images': [ticket],
-            'proof': [ticket],
+            'proof': [ticket, ticket1],
         },
         'electrician': {
             'title': 'Electrician at Antoons Luc SRL/BV',
@@ -177,7 +182,7 @@ const Summary = () => {
                 <br />
                 </>),
             'images': [electrician],
-            'proof': [],
+            'proof': [electrician1, electrician2],
         },
         'kitchen': {
             'title': 'Introduction to Articicial Intelligence with Tensorflow',
@@ -185,9 +190,10 @@ const Summary = () => {
                 <>
                 The company's services were butcher, caterer, baker and they did also 
                 have a little shop. I worked as kitchen aid, so I prepared food to be sold in the shop.
+                I work there 5-7h per week-end since the summer holidays of 2016.
                 </>),
             'images': [kitchen],
-            'proof': [],
+            'proof': [kitchen1, kitchen2],
         },
     };
 
